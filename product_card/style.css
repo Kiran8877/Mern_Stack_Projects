@@ -1,0 +1,54 @@
+.productcard{
+    background-color: beige;
+    box-shadow: 0 10px 20px rgba(0,0,0,0.12);
+    border:none;
+    width:300px;
+    border-radius: 15px;
+    position: relative;
+    overflow: hidden;
+}
+.image{
+    width:100%;
+    object-fit: cover;
+    
+}
+.main{
+    padding:20px;
+
+}
+.discount{
+    position:absolute;
+    top:10px;
+    right:-30px;
+    background-color: red;
+    color:white;
+    padding:8px 30px;
+    font-weight: bold;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.12) ;
+    transform: rotate(45deg);
+}
+body{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    height:100vh;
+    margin:0;
+    background:#f5f5f5;
+}
+.cta{
+    background-color:#3b82f6;
+    color:white;
+    border:none;
+    padding:12px 20px;
+    border-radius:8px;
+    font-size:16px;
+    cursor:pointer;
+
+    /* display:flex;
+    align-items:center; 
+    justify-content:center; */
+    /* gap:8px; */
+    /* white-space: nowrap; */
+
+    width:100%;
+}
